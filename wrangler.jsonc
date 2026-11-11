@@ -1,0 +1,11 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "holaguillermo",
+  "compatibility_date": "2026-11-10",
+  "observability": { "enabled": true },
+  // Static site: every file in the repo is served as-is, except what .assetsignore lists.
+  "assets": {
+    "directory": ".",
+    "not_found_handling": "404-page"
+  }
+}
